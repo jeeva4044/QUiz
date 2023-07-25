@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="quiz-container">
+    <h1>Quiz Page</h1>
+    <form id="quiz-form1">
+      <h2>What is the capital of France?</h2>
+      <label><input type="radio" name="q1" value="Paris">Paris</label>
+      <label><input type="radio" name="q1" value="London">London</label>
+      <label><input type="radio" name="q1" value="Berlin">Berlin</label>
+      <label><input type="radio" name="q1" value="Rome">Rome</label>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result1"></div>
+
+    <!-- QUESTION - 2 -->
+
+    <form id="quiz-form2">
+        <h2>What is the capital of India?</h2>
+        <label><input type="radio" name="q2" value="Paris">Paris</label>
+        <label><input type="radio" name="q2" value="London">London</label>
+        <label><input type="radio" name="q2" value="Berlin">Berlin</label>
+        <label><input type="radio" name="q2" value="Delhi">Delhi</label>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="result2"></div>
+
+        <!-- QUESTION - 3 -->
+
+      <form id="quiz-form3">
+        <h2><input type="text" id="fill-blank"> is the capital of India?</h2>
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="result3"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
